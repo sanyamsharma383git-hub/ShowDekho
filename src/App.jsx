@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import MovieDetails from "./pages/MovieDetails"
 import SeatSelection from "./pages/SeatSelection"
 import Booking from "./pages/Booking"
+import Wishlist from "./pages/Wishlist";
 import Login from "./pages/Login"
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/movie/:id" element={<MovieDetails />} />
         <Route path="/seats/:id" element={<SeatSelection />} />
         <Route path="/booking" element={<Booking />} />
+        <Route path="/wishlist" element={<Wishlist />} />
         <Route path="/login" element={<Login />} />
       </Routes>
       <Footer />
