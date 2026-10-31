@@ -6,7 +6,8 @@ import MovieDetails from "./pages/MovieDetails"
 import SeatSelection from "./pages/SeatSelection"
 import Booking from "./pages/Booking"
 import Wishlist from "./pages/Wishlist";
-import Login from "./pages/Login"
+import SignIn from "./pages/SignIn";
+import SignUp from "./pages/SignUp";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
         <Route path="/seats/:id" element={<SeatSelection />} />
         <Route path="/booking" element={<Booking />} />
         <Route path="/wishlist" element={<Wishlist />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/login" element={<SignIn />} />
+        <Route path="/signup" element={<SignUp />} />
       </Routes>
       <Footer />
     </>
